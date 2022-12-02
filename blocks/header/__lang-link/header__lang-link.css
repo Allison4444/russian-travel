@@ -5,7 +5,14 @@
   line-height: 28px;
   font-family: 'Inter';
   color: #fff;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
 
 
 
