@@ -5,13 +5,28 @@
   display: flex;
   justify-content: center;
   position: relative;
-  max-width: 1184px;
+  max-width: calc(1280px - 2*48px);
   width: 100%;
   flex-direction: column;
   align-items: center;
   min-height: 740px;
-  border: 1px solid red;
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1184px) {
+  .cover {
+    min-height: calc(0.625 * 100vw);
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    margin-top: 66px;
+  }
+}

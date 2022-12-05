@@ -1,5 +1,10 @@
 .place__image {
   width: 100%;
   grid-area: place__image;
+}
 
+@media screen and (max-width: 425px) {
+  .place__image {
+    margin-bottom: 26px;
+  }
 }
